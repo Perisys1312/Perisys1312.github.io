@@ -32,7 +32,7 @@
 } 	/* Catppuccin Macchiato Color Definitions */
 
 ::selection {
-	color: var(--crust);
+	color: var(--overlay2);
 	background var(--rosewater);
 }
 
@@ -65,7 +65,7 @@ h2 {
 }
 
 .tools {
-	display: flex;
+	display: block;
 	flex-wrap: wrap;
 }
 
@@ -80,7 +80,7 @@ h2 {
 
 .download {
 	padding: 2px;
-	background var(--surface0);
+	background: var(--surface0);
 	border-radius: 5px;
 }
 
@@ -92,4 +92,19 @@ p {
 	color: var(--subtext1);
 	text-align: center;
 	font-weight: 700;
+}
+
+a:link {
+	color: var(--blue);
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--mauve);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--sapphire);
+	text-decoration: underline;
 }
