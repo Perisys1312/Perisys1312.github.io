@@ -67,6 +67,7 @@ h2 {
 .tools {
 	display: block;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .linuxtool {
@@ -76,7 +77,6 @@ h2 {
 	margin-bottom: 30px;
 	background: var(--mantle);
 	border-radius: 5px;
-	justify-content: center;
 }
 
 .download {
