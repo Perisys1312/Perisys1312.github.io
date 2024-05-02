@@ -41,3 +41,49 @@ h1 {
 	color: var(--text);
 	text-align: center;
 }
+
+.welcome {
+	width: 650px;
+	padding: 10px;
+	margin: 15px;
+	margin-bottom: 30px;
+	background: var(--mantle);
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+}
+
+h2 {
+	color: var(--text);
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.tools {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.linuxtool {
+	width: 450px;
+	padding: 10px;
+	margin: 15px;
+	margin-bottom: 30px;
+	background: var(--mantle);
+	border-radius: 5px;
+}
+
+.download {
+	padding: 2px;
+	background var(--surface0);
+	border-radius: 5px;
+}
+
+.description {
+	height: 100px;
+}
+
+p {
+	text-align: center;
+	font-weight: 700;
+}
