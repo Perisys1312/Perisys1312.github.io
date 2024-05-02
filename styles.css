@@ -33,7 +33,7 @@
 
 ::selection {
 	color: var(--overlay2);
-	background var(--rosewater);
+	background: var(--rosewater);
 }
 
 body {
