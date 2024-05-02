@@ -65,7 +65,7 @@ h2 {
 }
 
 .tools {
-	display: block;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
