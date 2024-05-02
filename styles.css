@@ -32,8 +32,8 @@
 } 	/* Catppuccin Macchiato Color Definitions */
 
 ::selection {
-	color: var(--overlay2);
-	background: var(--rosewater);
+	background: var(--overlay2);
+	color: var(--rosewater);
 }
 
 body {
