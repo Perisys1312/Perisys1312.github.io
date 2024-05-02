@@ -1,6 +1,6 @@
 body {
-	background-image url("stuff/bg.jpg")
-	background-size: 100%
+	background-image url("stuff/bg.jpg");
+	background-size: 100%;
 	background-repeat:no-repeat;
 	font-family: Helvetica, sans-serif, Arial;
 }
