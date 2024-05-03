@@ -46,6 +46,11 @@ body {
 	font-family: Helvetica, sans-serif, Arial;
 }
 
+.blur {
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(8px);
+}
+
 h1 {
 	color: var(--text);
 	text-align: center;
