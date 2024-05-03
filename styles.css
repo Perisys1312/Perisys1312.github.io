@@ -37,8 +37,11 @@
 }
 
 body {
+	background-image: url(images/background.png);
+	background-attachment: fixed;
+	background-size: cover;
 	background-color: var(--base);
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	font-family: Helvetica, sans-serif, Arial;
 }
 
