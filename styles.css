@@ -100,20 +100,6 @@ p {
 	font-weight: 700;
 }
 
-.footer {
-	width: 650px;
-	padding: 10px;
-	margin: 15px;
-	margin-bottom: 30px;
-	background: var(--mantle);
-	border: 2px solid var(--mauve);
-	border-radius: 5px;
-	display: block;
-	margin: auto;	
-	position: fixed;
-	bottom: 0;
-}
-
 a:link {
 	color: var(--blue);
 	text-decoration: none;
