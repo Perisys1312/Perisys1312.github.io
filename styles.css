@@ -44,7 +44,7 @@ body {
 	background-repeat: no-repeat;
 	background-color: var(--base);
 	font-family: Helvetica, sans-serif, Arial;
-	backdrop-filiter: blur(5px);
+	backdrop-filter: blur(3px);
 }
 
 h1 {
