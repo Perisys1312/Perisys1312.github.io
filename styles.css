@@ -37,18 +37,17 @@
 }
 
 body {
-	background-image: url(images/background2.png);
+	background-image: url(images/background.png) no-repeat center;
 	background-attachment: fixed;
-	background-position: center;
 	background-size: cover;
 	background-color: var(--base);
-	background-repeat: no-repeat;
 	font-family: Helvetica, sans-serif, Arial;
 }
 
 .blur {
-	background: rgba(255, 255, 255, 0.2);
-	backdrop-filter: blur(8px);
+	background-color: rgba(255, 255, 255, 0.2);
+	backdrop-filiter: blur(5px);
+	height: 100%;
 }
 
 h1 {
