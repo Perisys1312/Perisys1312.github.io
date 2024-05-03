@@ -32,8 +32,7 @@
 } 	/* Catppuccin Macchiato Color Definitions */
 
 ::selection {
-	background: var(--overlay2);
-	color: var(--rosewater);
+	background-color:rgba(138, 173, 244, 0.6)
 }
 
 body {
@@ -99,6 +98,20 @@ p {
 	color: var(--subtext1);
 	text-align: center;
 	font-weight: 700;
+}
+
+.footer {
+	width: 650px;
+	padding: 10px;
+	margin: 15px;
+	margin-bottom: 30px;
+	background: var(--mantle);
+	border: 2px solid var(--mauve);
+	border-radius: 5px;
+	display: block;
+	margin: auto;	
+	position: fixed;
+	bottom: 0;
 }
 
 a:link {
